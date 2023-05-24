@@ -28,7 +28,8 @@ public class ExtraordinaryVillager extends Villager {
     @Override
     public void takeHit(int damage) {
         // Ginie od jednego ciosu
-        super.takeHit(getHealth());
+        //super.takeHit(getHealth());
+        this.health = 0;
     }
     @Override
     public void sayHello() {

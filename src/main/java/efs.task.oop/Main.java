@@ -4,14 +4,14 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Villager kaysha = new Villager("Kaysha", 30);
+        Villager kashya = new Villager("Kashya", 30);
         ExtraordinaryVillager akara = new ExtraordinaryVillager("Akara", 40, ExtraordinaryVillager.Skill.SHELTER);
         Villager gheed = new Villager("Gheed", 50);
         ExtraordinaryVillager deckardCain = new ExtraordinaryVillager("Deckard Cain", 85, ExtraordinaryVillager.Skill.IDENTIFY);
         Villager warriv = new Villager("Warriv", 35);
         Villager flawia = new Villager("Flawia", 25);
 
-        kaysha.sayHello();
+        kashya.sayHello();
         akara.sayHello();
         gheed.sayHello();
         deckardCain.sayHello();
@@ -30,7 +30,7 @@ public class Main {
         //((ExtraordinaryVillager)objectAkara).sayHello();
 
         ArrayList<Villager> villagers = new ArrayList<>();
-        villagers.add(kaysha);
+        villagers.add(kashya);
         villagers.add(gheed);
         villagers.add(warriv);
         villagers.add(flawia);

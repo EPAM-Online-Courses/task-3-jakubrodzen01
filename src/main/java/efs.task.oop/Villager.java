@@ -2,7 +2,7 @@ package efs.task.oop;
 
 public class Villager implements Fighter {
     private String name;
-    private int health;
+    protected int health;
     private int age;
 
     public Villager(String name, int age) {
@@ -22,6 +22,11 @@ public class Villager implements Fighter {
     public int getHealth() {
         return health;
     }
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
     public int getDamage() {
         double damage = (100 - age * 0.5) / 10;
         return (int) damage;
